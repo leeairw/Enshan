@@ -22,5 +22,5 @@ jobs:
         env:
           cookie_enshan: ${{ secrets.cookie_enshan }}
         run: |
-          python3 ./Enshan/Enshan.py
+          python3 ../Enshan/Enshan.py
           
